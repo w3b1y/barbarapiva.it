@@ -83,7 +83,7 @@ ul {
 #about-me {
   width: 100%;
   height: fit-content;
-  background-image: url("../img/Barbara1.png");
+  background-image: url("../img/Barbara1.jpg");
   background-repeat: no-repeat;
   background-position: right 20%;
 }
@@ -104,7 +104,7 @@ ul {
 #certifications {
   width: 100%;
   height: fit-content;
-  background-image: url("../img/Barbara2.png");
+  background-image: url("../img/Barbara2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -13rem bottom;
