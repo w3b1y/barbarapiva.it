@@ -41,8 +41,10 @@ h2 {
 
 a {
   font-size: var(--l-font-size);
-  text-decoration: none;
   color: inherit;
+}
+a:visited {
+  color: var(--title-text);
 }
 
 ul {
@@ -143,16 +145,25 @@ ul {
 }
 
 
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: .5rem;
+  text-indent: -999px;
+  background-image: url("../img/logo.png");
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}
+
 .nav__toggle {
   display: flex;
   order: 2;
   font-size: 1.5rem;
   font-weight: var(--font-black);
   cursor: pointer;
-  color: var(--visited-color);
+  color: var(--title-text);
   height: fit-content;
   margin: auto 0;
-  color: var(--dark-color);
 }
 
 .nav__list {
@@ -169,6 +180,7 @@ ul {
 .nav__link {
   display: block;
   width: 100%;
+  color: var(--dark-text);
 }
 .nav__close {
   position: absolute;
