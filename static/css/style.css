@@ -77,12 +77,12 @@ ul {
 #about-me {
   width: 100%;
   height: fit-content;
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/Barbara1.png");
   background-repeat: no-repeat;
-  background-position: right 0;
+  background-position: right 20%;
 }
 
-#certifications {
+#patients {
   position: relative;
 }
 
@@ -91,17 +91,17 @@ ul {
   height: fit-content;
   background-image: url("../img/studio_3.jpeg");
   background-repeat: no-repeat;
-  background-size: 55%;
+  background-size: 60%;
   background-position: right bottom;
 }
 
-#patients {
+#certifications {
   width: 100%;
   height: fit-content;
-  background-image: url("../img/studio_2.jpeg");
+  background-image: url("../img/Barbara2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left 72%;
+  background-position: -13rem bottom;
 }
 
 
@@ -137,7 +137,7 @@ ul {
 }
 .container--narrow {
   display: flex;
-  padding: 3% 15%;
+  padding: 3% 10%;
   flex-direction: column;
   gap: 2rem;
 }
@@ -189,12 +189,12 @@ ul {
 .title {
   font-size: var(--xxl-font-size);
   font-weight: var(--font-black);
-  color: var(--title-text);
+  color: var(--light-text);
 }
 .title--small {
   font-size: var(--xl-font-size);
   font-weight: var(--font-black);
-  color: var(--title-text);
+  color: var(--light-text);
 }
 .title--center {
   text-align: center;
@@ -266,6 +266,9 @@ ul {
   display: flex;
   align-items: center;
 }
+.skill__img{
+  filter: invert(1);
+}
 
 
 .table {
@@ -296,9 +299,9 @@ ul {
   flex: 1;
 }
 
-@media (min-width: 925px) {
+@media (min-width: 1080px) {
   #about-me {
-    background-size: auto;
+    background-size: cover;
   }
 
 
@@ -343,7 +346,7 @@ ul {
   .container--two-third {
     display: flex;
     width: 62%;
-    padding: 7rem 10%;
+    padding: 4rem 10%;
     flex-direction: column;
     gap: 2rem;
   }
@@ -364,7 +367,7 @@ ul {
   
   .skill {
     gap: 2rem;
-    padding: 2.5rem 15%;
+    padding: 2rem 5%;
   }
 
   .more {
@@ -373,7 +376,7 @@ ul {
   
 }
 
-@media screen and (min-width: 601px) and (max-width: 924px){
+@media screen and (min-width: 721px) and (max-width: 1079px){
   iframe {
     width: auto;
     height: auto;
@@ -385,15 +388,16 @@ ul {
   }
   #about-me {
     padding: 20rem 0 0 0;
-    background-size: 200%;
+    background-size: 300%;
+    background-position: 80% 30%;
   }
   #specializations {
     background-size: cover;
     background-position: right bottom;
   }
-  #patients {
+  #certifications {
     background-size: cover;
-    background-position: -12rem bottom;
+    background-position: -14rem bottom;
   }
 
   #about-me .container--half {
@@ -426,7 +430,7 @@ ul {
 
 
   .container--narrow {
-    padding: 3% 10%;
+    padding: 3% 8%;
   }
   .container--flex {
     display: flex;
@@ -459,16 +463,16 @@ ul {
 
   .showcase {
     gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
     padding: 2.5rem 5%;
   }
-
 
   .more {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   iframe {
     width: auto;
     height: auto;
@@ -481,11 +485,12 @@ ul {
   #about-me {
     padding: 20rem 0 0 0;
     background-size: 200%;
+    background-position: right 0%;
   }
-  #patients {
-    background-size: 130%;
+  #certifications {
+    background-size: 170%;
     background-position: left bottom;
-    padding-bottom: 18rem;
+    padding-bottom: 28rem;
   }
 
   .hide--phone {
