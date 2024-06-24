@@ -83,7 +83,7 @@ ul {
 #about-me {
   width: 100%;
   height: fit-content;
-  background-image: url("../img/Barbara1.jpg");
+  background-image: url("../img/Barbara3.jpg");
   background-repeat: no-repeat;
   background-position: right 20%;
 }
@@ -317,7 +317,7 @@ ul {
 
 @media (min-width: 1080px) {
   #about-me {
-    background-size: cover;
+    background-size: 70%;
   }
 
 
@@ -404,8 +404,8 @@ ul {
   }
   #about-me {
     padding: 20rem 0 0 0;
-    background-size: 300%;
-    background-position: 80% 30%;
+    background-size: 120%;
+    background-position: 80% 40%;
   }
   #specializations {
     background-size: cover;
@@ -500,7 +500,7 @@ ul {
   }
   #about-me {
     padding: 20rem 0 0 0;
-    background-size: 200%;
+    background-size: 100%;
     background-position: right 0%;
   }
   #certifications {
