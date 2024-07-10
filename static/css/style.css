@@ -150,11 +150,13 @@ ul {
 
 
 .logo {
-  width: 2.5rem;
+  width: 15rem;
   height: 2.5rem;
   margin-top: .5rem;
-  text-indent: -999px;
-  background-image: url("../img/logo.png");
+  text-indent: 3rem;
+  font-size: 1rem;
+  color: var(--title-text);
+  background-image: url(../img/logo.png);
   background-size: 2.5rem;
   background-repeat: no-repeat;
 }
